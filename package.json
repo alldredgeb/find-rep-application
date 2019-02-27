@@ -1,11 +1,17 @@
 {
   "name": "find-rep-application",
   "version": "0.1.0",
+  "description": "React app and a super simple wrapper around the api at whosimyrepresentative.com/api",
+  "main": "./server/index.js",
+  "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
   },
   "scripts": {
     "start": "react-scripts start",
